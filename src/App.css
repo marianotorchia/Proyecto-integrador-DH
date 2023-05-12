@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Kodchasan:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=La+Belle+Aurore&display=swap');
+
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  left: 0;
+  top:0;
+  max-width: 100vw;
+} 
+
+.Header {
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  background-color: black;
+  border-radius: 0px 0 40px 40px;
+  height: 20vh;
+}
+
+.Logo-header {
+  height: 17vh;
+  position: absolute;
+  top: 1vh;
+  left: 1vw;
+  will-change: filter;
+  transition: filter 300ms;
+  filter: drop-shadow(0 0 2em #f39200);
+  filter: drop-shadow(0 0 0.5em rgba(255, 255, 255, 0.466));
+}
+
+.Header-main {
+  display: flex;
+  background-color: white;
+  color:black;
+  border-radius: 0 0 40px 40px;
+  height: 12vh;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Kodchasan', sans-serif;
+  font-size: 32px;
+}
+
+.Title-bold {
+  font-weight: 700;
+  color:black;
+}
+
+.Title-semibold {
+  font-weight: 600;
+  color:black;
+}
+
+.Title-Medium {
+  font-weight: 500;
+  color:black;
+}
+
+.Title-regular {
+  font-weight: 400;
+  color:black;
+}
+
+.Title-light {
+  font-weight: 300;
+  color:black;
+}
+
+.Header-sec {
+  display: flex;
+  flex-direction: column;
+  background-color: black;
+  border-radius: 0 0 40px 40px;
+  height: 8vh;
+  justify-content: center;
+  align-items:center;
+  
+}
+
+.slogan {
+  font-family: 'La Belle Aurore', cursive;
+  font-size: 55px;
+  color: white;
+  padding-top: 4vh;
+}
+
+.body {
+  display: flex;
+  flex-direction: column;
+  background-color: #f39200; 
+  
+}
+
+.categories {
+  display: flex;
+  flex-direction: row;
+}
+
+.category {
+  padding-right: 5vw;
+  font-size: 30px;
+  font-weight: 700;
+  color: black;
+}
+
+.search {
+  display: flex;
+  justify-content:space-between;
+  padding: 5px 10px 5px 10px;
+  margin-bottom: 3vh;
+  align-items: center;
+  border-style:outset;
+  border-width: 4px;
+  border-color: #65676b;
+  border-radius: 50px;
+  width: 25vw;
+  height: 5vh;
+}
+
+.search-placeholder {
+  font-size: 30px;
+  color: #65676b;
+}
+
+.recomendaciones {
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  
+  align-items: start;
+  justify-content: space-between;
+  
+  font-size: 40px;
+  width: 100vw;
+}
+
+
