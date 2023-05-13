@@ -3,7 +3,7 @@ const Card = () => {
     return (
         <div className="card">
 
-            <img className="img-doctor" src="./images/doctor.jpg" alt='doctor-img'/>
+            <img className="" src="" alt='producto-img'/>
              <p>Producto</p>
              <p>Precio</p>         
 
